@@ -5,11 +5,11 @@ A React Native module for Google Sign-in. This module works for both iOS and And
 ## Installation
 
 ```sh
-npm install clay-google-signin
+npm install @stonega/google-signin
 ```
 or
 ```sh
-yarn add clay-google-signin
+yarn add @stonega/google-signin
 ```
 
 This library comes with a config plugin that handles the native project configuration for you.
