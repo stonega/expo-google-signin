@@ -1,0 +1,45 @@
+{
+  "name": "@stonega/expo-google-signin",
+  "version": "0.1.12",
+  "description": "Google SignIn for Expo",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "google-signin",
+    "GoogleSignin"
+  ],
+  "repository": "https://github.com/stonega/expo-google-signin",
+  "bugs": {
+    "url": "https://github.com/stonega/expo-google-signin/issues"
+  },
+  "author": "stone <xijieyin@gmail.com> (https://github.com/stonega)",
+  "license": "MIT",
+  "homepage": "https://github.com/stonega/clay-google-signin#readme",
+  "dependencies": {
+    "@expo/config-plugins": "~8.0.0",
+    "plist": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.0.0",
+    "expo-module-scripts": "^3.5.2",
+    "expo": "~53.0.0",
+    "react-native": "0.79.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}

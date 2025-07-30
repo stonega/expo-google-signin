@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "clay-google-signin": ["../src/index"],
+      "clay-google-signin/*": ["../src/*"]
+    }
+  }
+}

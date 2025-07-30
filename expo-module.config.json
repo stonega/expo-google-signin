@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ClayGoogleSigninModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.claygooglesignin.ClayGoogleSigninModule"]
+  }
+}
