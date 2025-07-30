@@ -31,16 +31,21 @@ These values can be found in your `GoogleService-Info.plist` file:
 - `IOS_CLIENT_ID`: The iOS client ID from your GoogleService-Info.plist
 - `GOOGLE_WEB_CLIENT_ID`: The web client ID from your GoogleService-Info.plist
 
-{
-  "expo": {
-    "android": {
-      "googleServicesFile": "./google-services.json"
-    },
-    "ios": {
-      "googleServicesFile": "./GoogleService-Info.plist"
-    }
-  }
-}
+### Google Services Configuration
+
+Configure in `app.config.js`:
+
+```javascript
+export default {
+  // ... other config
+  android: {
+    googleServicesFile: process.env.GOOGLE_SERVICES_JSON ?? '/local/path/to/google-services.json',
+  },
+  ios: {
+    googleServicesFile: process.env.GOOGLE_SERVICES_PLIST ?? '/local/path/to/GoogleService-Info.plist',
+  },
+};
+```
 
 ### iOS
 
